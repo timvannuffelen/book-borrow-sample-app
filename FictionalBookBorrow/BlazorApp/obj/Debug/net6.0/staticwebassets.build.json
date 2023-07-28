@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "euV2R11MQ0miArtB1WXzM1EbAd2N2vo2q6yWk+hyas8=",
+  "Hash": "ifZ2wVHmxlHMHFcrehKHyZZbh/cbdwF7YlZom05CEKQ=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -1071,40 +1071,6 @@
       "OriginalItemSpec": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "SourceId": "BlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\",
-      "BasePath": "_content/BlazorApp",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "BlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\",
-      "BasePath": "_content/BlazorApp",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
       "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
@@ -1275,12 +1241,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\images\\favicon.ico",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "images/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,7 +1255,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\images\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\js\\js-interop.js",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "js/js-interop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\js-interop.js"
     }
   ]
 }

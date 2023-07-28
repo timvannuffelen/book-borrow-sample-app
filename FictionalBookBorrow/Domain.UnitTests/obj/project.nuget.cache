@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2vAp2KO56vBQxE3TIBEocIEe43VSWSJkDrKqRPpW4Hc4nFCDvn6oTos/+GDp8gou7MR3W8P+6dNhiSs2S0gbBw==",
+  "dgSpecHash": "rdi9KvvkvTl7qhFRXoOX6eUfXNaLJ1SZHN7aecFaaKPtRA0O3/Dc5QQ5s5g4BLsDL73QUkQJyZZVhA3w4eLZ3w==",
   "success": true,
   "projectFilePath": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\Domain.UnitTests\\Domain.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\u0068318\\.nuget\\packages\\sonaranalyzer.csharp\\9.6.0.74858\\sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

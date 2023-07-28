@@ -10,6 +10,7 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
+          "SonarAnalyzer.CSharp": "9.6.0.74858",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
@@ -401,6 +402,7 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SonarAnalyzer.CSharp/9.6.0.74858": {},
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1222,6 +1224,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/9.6.0.74858": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBwiOBYcoSyHVUejjz6iH3VOpSFx7gJSuQ3695BQaoqQBcqy0IeRsKAk5FAR4fbm3QLyEM9bimKk1l038TFN2w==",
+      "path": "sonaranalyzer.csharp/9.6.0.74858",
+      "hashPath": "sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

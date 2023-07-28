@@ -23,6 +23,8 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\u0068318\.nuget\packages\xunit.analyzers\1.0.0</Pkgxunit_analyzers>
+    <PkgSonarAnalyzer_CSharp Condition=" '$(PkgSonarAnalyzer_CSharp)' == '' ">C:\Users\u0068318\.nuget\packages\sonaranalyzer.csharp\9.6.0.74858</PkgSonarAnalyzer_CSharp>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\u0068318\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.19</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">C:\Users\u0068318\.nuget\packages\buildbundlerminifier\3.2.449</PkgBuildBundlerMinifier>
   </PropertyGroup>
 </Project>

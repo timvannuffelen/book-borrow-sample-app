@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Lk3BTsfHz7eBtFFjBAF5KI+oxx1GLqra1XZZQ4DJDqr/xsxpew5/zjq76zHe1lXulR0gYkRk+tpT6J5xApK2fg==",
+  "dgSpecHash": "fqhgLmHtet3kcGlqhXOAre6Vf1fIKFojmnNwn2jFeG/J1bbAnGP9YJMa8q88zzTNCJs86EJZy9ukqG9DU9PaEA==",
   "success": true,
   "projectFilePath": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\BlazorApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\u0068318\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.19\\microsoft.aspnetcore.cryptography.internal.6.0.19.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.19\\microsoft.aspnetcore.cryptography.keyderivation.6.0.19.nupkg.sha512",
@@ -42,6 +43,7 @@
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\u0068318\\.nuget\\packages\\sonaranalyzer.csharp\\9.6.0.74858\\sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

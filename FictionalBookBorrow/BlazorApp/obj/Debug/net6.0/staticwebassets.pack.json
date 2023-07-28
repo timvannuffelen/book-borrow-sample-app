@@ -5,14 +5,6 @@
       "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
       "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
@@ -53,8 +45,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\wwwroot\\js\\js-interop.js",
+      "PackagePath": "staticwebassets\\js\\js-interop.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",

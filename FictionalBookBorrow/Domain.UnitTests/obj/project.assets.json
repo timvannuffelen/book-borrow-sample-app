@@ -568,6 +568,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.6.0.74858": {
+        "type": "package"
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2385,6 +2388,26 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "SonarAnalyzer.CSharp/9.6.0.74858": {
+      "sha512": "tBwiOBYcoSyHVUejjz6iH3VOpSFx7gJSuQ3695BQaoqQBcqy0IeRsKAk5FAR4fbm3QLyEM9bimKk1l038TFN2w==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.6.0.74858",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -5527,6 +5550,7 @@
     "net6.0": [
       "Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "SonarAnalyzer.CSharp >= 9.6.0.74858",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5584,6 +5608,11 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.6.0.74858, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

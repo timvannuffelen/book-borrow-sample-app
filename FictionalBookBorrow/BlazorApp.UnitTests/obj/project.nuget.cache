@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f0Pm53BcMRVaV2uKxm+wyKtywv4Qzt2PnJPIR3p4g4H7CxV8CQAMorkVONz0C+A7IYUxpHO8bO4AjefDbfBXTw==",
+  "dgSpecHash": "91M8lZtkflcAALUaE7e/uSF7FdnMogo+PoVKAvjeLzbdZ1BiZGBYiC7bFXdP9H3+hm3jMY0gdC41lkKiXgZjhg==",
   "success": true,
   "projectFilePath": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp.UnitTests\\BlazorApp.UnitTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\u0068318\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.19\\microsoft.aspnetcore.cryptography.internal.6.0.19.nupkg.sha512",
@@ -68,6 +69,7 @@
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\u0068318\\.nuget\\packages\\sonaranalyzer.csharp\\9.6.0.74858\\sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

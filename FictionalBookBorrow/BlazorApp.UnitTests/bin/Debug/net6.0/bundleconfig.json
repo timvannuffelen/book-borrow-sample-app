@@ -1,0 +1,31 @@
+/*
+ * The name of minified files ends with .min.[css|js]
+ * 
+ * Single input files go into wwwroot/[css|js]/minified/
+ * Multiple input files (that are going to be bundled) go into wwwroot/[css|js]/minified/bundles/
+ * 
+ * The actual minification and bundling is done using the BuildBundlerMinifier NuGet package.
+ *
+ * When a library, like for instance Font Awesome, already offers minified files just use those minified 
+ * files directly from the lib folder.
+*/
+[
+  {
+    "outputFileName": "wwwroot/css/minified/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/minified/bundles/custom-all.min.js",
+    "inputFiles": [
+      "wwwroot/js/*.js" // all .js files in wwwroot/js/
+    ],
+    "minify": {
+      "enabled": true
+    }
+  }
+]

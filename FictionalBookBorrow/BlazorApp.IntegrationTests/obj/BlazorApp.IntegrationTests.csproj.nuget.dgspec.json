@@ -53,6 +53,11 @@
               "target": "Package",
               "version": "[17.5.0, )"
             },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.6.0.74858, )"
+            },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -136,6 +141,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.19, )"
@@ -155,6 +164,11 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.19, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.6.0.74858, )"
             }
           },
           "imports": [

@@ -152,3 +152,4 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorA
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\obj\Debug\net6.0\BlazorApp.UnitTests.pdb
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\obj\Debug\net6.0\BlazorApp.UnitTests.genruntimeconfig.cache
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\obj\Debug\net6.0\ref\BlazorApp.UnitTests.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\bundleconfig.json

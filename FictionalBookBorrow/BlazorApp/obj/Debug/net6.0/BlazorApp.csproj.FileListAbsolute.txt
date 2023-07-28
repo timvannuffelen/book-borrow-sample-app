@@ -78,3 +78,4 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorA
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\BlazorApp.genruntimeconfig.cache
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\bundleconfig.json

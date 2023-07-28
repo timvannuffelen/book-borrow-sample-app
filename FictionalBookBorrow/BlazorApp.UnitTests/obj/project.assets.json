@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BuildBundlerMinifier/3.2.449": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
@@ -1229,6 +1235,9 @@
             "rid": "ubuntu.16.10-x64"
           }
         }
+      },
+      "SonarAnalyzer.CSharp/9.6.0.74858": {
+        "type": "package"
       },
       "System.AppContext/4.3.0": {
         "type": "package",
@@ -2608,6 +2617,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BuildBundlerMinifier": "3.2.449",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.19",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
@@ -2638,6 +2648,34 @@
     }
   },
   "libraries": {
+    "BuildBundlerMinifier/3.2.449": {
+      "sha512": "uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "type": "package",
+      "path": "buildbundlerminifier/3.2.449",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/BuildBundlerMinifier.targets",
+        "buildbundlerminifier.3.2.449.nupkg.sha512",
+        "buildbundlerminifier.nuspec",
+        "tools/net46/BundlerMinifier.dll",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/BundlerMinifier.dll",
+        "tools/netcoreapp2.0/NUglify.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/BundlerMinifier.dll",
+        "tools/netcoreapp3.0/NUglify.dll",
+        "tools/netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.1/BundlerMinifier.dll",
+        "tools/netcoreapp3.1/NUglify.dll",
+        "tools/netcoreapp3.1/Newtonsoft.Json.dll",
+        "tools/netstandard1.3/BundlerMinifier.dll",
+        "tools/netstandard1.3/NUglify.dll",
+        "tools/netstandard1.3/Newtonsoft.Json.dll"
+      ]
+    },
     "coverlet.collector/3.2.0": {
       "sha512": "xjY8xBigSeWIYs4I7DgUHqSNoGqnHi7Fv7/7RZD02rvZyG3hlsjnQKiVKVWKgr9kRKgmV+dEfu8KScvysiC0Wg==",
       "type": "package",
@@ -4286,6 +4324,26 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "SonarAnalyzer.CSharp/9.6.0.74858": {
+      "sha512": "tBwiOBYcoSyHVUejjz6iH3VOpSFx7gJSuQ3695BQaoqQBcqy0IeRsKAk5FAR4fbm3QLyEM9bimKk1l038TFN2w==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.6.0.74858",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -7868,6 +7926,7 @@
     "net6.0": [
       "BlazorApp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "SonarAnalyzer.CSharp >= 9.6.0.74858",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -7925,6 +7984,11 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.6.0.74858, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

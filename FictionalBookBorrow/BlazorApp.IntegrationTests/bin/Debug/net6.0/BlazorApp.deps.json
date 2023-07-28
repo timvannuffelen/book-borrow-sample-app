@@ -8,17 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "BlazorApp/1.0.0": {
         "dependencies": {
+          "BuildBundlerMinifier": "3.2.449",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.19",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
           "Microsoft.AspNetCore.Identity.UI": "6.0.19",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.19"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.19",
+          "SonarAnalyzer.CSharp": "9.6.0.74858"
         },
         "runtime": {
           "BlazorApp.dll": {}
         }
       },
+      "BuildBundlerMinifier/3.2.449": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -398,6 +401,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.6.0.74858": {},
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -556,6 +560,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BuildBundlerMinifier/3.2.449": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "path": "buildbundlerminifier/3.2.449",
+      "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -822,6 +833,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/9.6.0.74858": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBwiOBYcoSyHVUejjz6iH3VOpSFx7gJSuQ3695BQaoqQBcqy0IeRsKAk5FAR4fbm3QLyEM9bimKk1l038TFN2w==",
+      "path": "sonaranalyzer.csharp/9.6.0.74858",
+      "hashPath": "sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
