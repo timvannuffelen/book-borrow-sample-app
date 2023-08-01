@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\u0068318\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSonarAnalyzer_CSharp Condition=" '$(PkgSonarAnalyzer_CSharp)' == '' ">C:\Users\u0068318\.nuget\packages\sonaranalyzer.csharp\9.6.0.74858</PkgSonarAnalyzer_CSharp>
+  </PropertyGroup>
 </Project>
