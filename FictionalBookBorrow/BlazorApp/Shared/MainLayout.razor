@@ -8,13 +8,38 @@
     </div>
 
     <main>
-        <div class="top-row px-4 auth">
-            <LoginDisplay />
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
+        <ErrorBoundary @ref="_globalExceptionHandler">
+            <ChildContent>
+                <div class="top-row px-4 auth">
+                    <LoginDisplay/>
+                    <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+                </div>
 
-        <article class="content px-4">
-            @Body
-        </article>
+                <article class="content px-4">
+                    @Body
+                </article>
+            </ChildContent>
+            <ErrorContent>
+                <div id="error-section" class="alert alert-info alert-dismissible fade show notification-banner pt-2 pb-2 pe-4" role="alert">
+                    <span class="flex-container-center">
+                        <i class="fas fa-info-circle"></i>
+                        <span class="ms-2 me-3">Er is iets misgegaan :(</span>
+                        <button type="button" class="btn-primary float-end" data-dismiss="alert" aria-label="Close"
+                                @onclick="@(() => _globalExceptionHandler?.Recover())">
+                            <span aria-hidden="true">Sluiten</span>
+                        </button>
+                    </span>
+                </div>
+            </ErrorContent>
+        </ErrorBoundary>
     </main>
 </div>
+
+@code{
+    private ErrorBoundary? _globalExceptionHandler;
+
+    protected override void OnParametersSet()
+    {
+        _globalExceptionHandler?.Recover();
+    }
+}

@@ -5,4 +5,11 @@
     Layout = "_Layout";
 }
 
-<component type="typeof(App)" render-mode="ServerPrerendered" />
+@*
+    Mode "ServerPrerendered" serves pages faster than mode "Server"", but to get that better performance pages/components are rendered
+    twice. This means the Blazor lifecycle methods like OnInitialized are also executed twice, which is not always desirable (for instance
+    when we don't want to execute a round trip to the database twice, or when we load a random teaser image after a page refresh we don't
+    want to generate two random images). Render mode "Server" decreases the performance of your app somewhat, but pages/components are
+    only rendered once and thus lifecycle methods like OnInitialized are also executed only once.
+*@
+<component type="typeof(App)" render-mode="Server" />

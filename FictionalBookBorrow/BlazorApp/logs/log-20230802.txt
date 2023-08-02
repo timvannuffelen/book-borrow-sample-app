@@ -1,0 +1,7 @@
+2023-08-02 16:12:36.276 +02:00 [WRN] Unhandled exception rendering component: Object of type 'Microsoft.AspNetCore.Components.Web.ErrorBoundary' does not have a property matching the name 'ref'.
+System.InvalidOperationException: Object of type 'Microsoft.AspNetCore.Components.Web.ErrorBoundary' does not have a property matching the name 'ref'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ParameterView.SetParameterProperties(Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)

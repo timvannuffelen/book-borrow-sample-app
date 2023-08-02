@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Components.Web
+
 @namespace BlazorApp.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
@@ -8,25 +9,40 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="~/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link href="css/site.css" rel="stylesheet" />
+    
+    @* The style bundle that bundles all isolated CSS files. *@
     <link href="BlazorApp.styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <environment include="Staging, Production">
+        <link rel="stylesheet" href="css/minified/site.min.css" />
+    </environment>
+    <environment include="Development">
+        <link rel="stylesheet" href="css/site.css" />
+    </environment>
+
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
-<body>
+@* Use the ID of the body element if you need extra weight points to override a Bootstrap style. *@
+<body id="root-container">
     @RenderBody()
 
     <div id="blazor-error-ui">
         <environment include="Staging,Production">
-            An error has occurred. This application may no longer respond until reloaded.
+            Er is iets misgegaan :( Deze app reageert mogelijk niet meer totdat ze opnieuw geladen wordt.
         </environment>
         <environment include="Development">
             An unhandled exception has occurred. See browser dev tools for details.
         </environment>
-        <a href="" class="reload">Reload</a>
+        <a href="" class="reload">Opnieuw laden</a>
         <a class="dismiss">🗙</a>
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+    <script src="js/minified/bundles/custom-all.min.js"></script>
+    @* We need this for dropdowns to work (dropdowns are build on Popper.js, which is included in the Bootstrap script bundle.) *@
+    <script defer src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    @* all.js and all.min.js load all styles and icons. *@
+    <script defer src="lib/fontawesome/js/all.min.js"></script>
 </body>
 </html>
