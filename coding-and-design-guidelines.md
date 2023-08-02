@@ -1,7 +1,7 @@
 # C# Coding Guidelines
 
 ## Introduction
-In this document we provide some coding and design guidelines that we would like you to use in the this code base.  
+In this document we provide some coding and design guidelines that we would like you to use in this code base.  
 
 We believe being consistent is a good thing in a lot of different situations, adhering to the same coding guidelines being one of them. Of course,
 these are only guidelines, and therefore are in no way enforced upon anyone. 
