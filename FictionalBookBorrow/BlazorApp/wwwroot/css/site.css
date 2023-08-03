@@ -62,3 +62,8 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.d-flex-center {
+    display: flex;
+    align-items: center; /* Vertically aligns the items inside a flexible container. */
+}

@@ -115,3 +115,10 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorA
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\System.Text.Json.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\en\BlazorApp.resources.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\bin\Debug\net6.0\nl\BlazorApp.resources.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\BlazorApp.Resources.App.en.resources
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\BlazorApp.Resources.App.nl.resources
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.GenerateResource.cache
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\en\BlazorApp.resources.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp\obj\Debug\net6.0\nl\BlazorApp.resources.dll

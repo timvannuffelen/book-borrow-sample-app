@@ -46,7 +46,6 @@ try
     RegisterCommonDependencies();
 
 
-    // Add services to the container.
     string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
@@ -54,6 +53,7 @@ try
     builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<ApplicationDbContext>();
     
+    builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
     builder.Services.AddRazorPages();
     builder.Services.AddServerSideBlazor();
                     // Only enable detailed errors on a production environment for temporary troubleshooting! Setting this value
@@ -62,6 +62,14 @@ try
     
     builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
     builder.Services.AddSingleton<WeatherForecastService>();
+
+    builder.Services.Configure<CookiePolicyOptions>(options =>
+    {
+        // This lambda determines whether user consent for non-essential cookies is needed for a given request. 
+        // Return "true" when you want your users to explicitly give their consent for non-essential cookies.  
+        options.CheckConsentNeeded = context => true;
+        options.MinimumSameSitePolicy = SameSiteMode.None;
+    });
 
     WebApplication app = builder.Build();
 
@@ -86,6 +94,12 @@ try
     app.UseStaticFiles();
 
     app.UseRouting();
+
+    app.UseCookiePolicy();
+
+    // Configure localization immediately after the routing middle ware is added to the processing pipeline.
+    RequestLocalizationOptions localizationOptions = GetSupportedLocalizationOptions();
+    app.UseRequestLocalization(localizationOptions);
 
     app.UseAuthentication();
     app.UseAuthorization();
@@ -114,7 +128,40 @@ finally
 // Register dependencies that are needed for all environments (Development, Staging, Production).
 void RegisterCommonDependencies()
 {
+    // We need to register this dependency if we want access to HttpContext in custom components.
+    builder.Services.AddHttpContextAccessor();
+
     builder.Services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingPipelineBehavior<,>));
 
     builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+}
+
+RequestLocalizationOptions GetSupportedLocalizationOptions()
+{
+    string[] supportedCultures = GetSupportedCultures();
+
+    var supportedOptions = new RequestLocalizationOptions();
+
+    return supportedOptions.SetDefaultCulture(GetDefaultCulture(supportedCultures))
+                           .AddSupportedCultures(supportedCultures)
+                           .AddSupportedUICultures(supportedCultures);
+
+    string[] GetSupportedCultures()
+    {
+        IDictionary<string, string?> cultures = builder.Configuration.GetSection("Cultures")
+                                                                     .GetChildren()
+                                                                     .ToDictionary(setting => setting.Key,
+                                                                                   setting => setting.Value);
+
+        return cultures.Keys.ToArray();
+    }
+
+    string GetDefaultCulture(IReadOnlyList<string> cultures)
+    {
+        const string dutchCulture = "nl";
+
+        // When the Dutch culture is not specified in the app configuration file, just use the first
+        // specified culture as the default.
+        return cultures.Contains(dutchCulture) ? dutchCulture : cultures[0];
+    }
 }

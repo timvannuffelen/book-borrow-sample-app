@@ -1,0 +1,61 @@
+﻿@using System.Globalization
+
+@inject NavigationManager NavigationManager
+@inject IConfiguration Configuration
+
+<a id="language-menu" class="nav-link text-nowrap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-language fa-fw fa-lg me-2 blue d-md-none d-lg-inline"></i>@Culture.DisplayName&nbsp;<i class="fas fa-chevron-down fa-fw"></i>
+</a>
+<ul class="dropdown-menu" aria-labelledby="language-menu">
+    @foreach ((string name, string? displayName) in _supportedCultures)
+    {
+        bool isActiveCulture = name.Equals(Culture.Name);
+
+        <li>
+            <a href="#" class="dropdown-item" @onclick="@(() => SetCulture(name))">
+                &nbsp;@displayName
+                @if (isActiveCulture)
+                {
+                    @:&nbsp;<i class="fas fa-check fa-fw orange"></i>
+                }
+            </a>
+        </li>
+    }
+</ul>
+
+@code {
+    /// <summary>
+    /// Stores the short name (that is, the two-letter language code) and a more readable display name, which are both retrieved from
+    /// the appsettings.json file, of all supported cultures.
+    /// E.g. For the <em>Dutch</em> culture the short name is <em>nl</em> and the display name is <em>Nederlands</em>.
+    /// </summary>
+    private IDictionary<string, string?> _supportedCultures = new Dictionary<string, string?>();
+
+    private CultureInfo Culture { get; set; } = CultureInfo.CurrentCulture;
+
+    protected override void OnInitialized()
+    {
+        Culture = CultureInfo.CurrentCulture;
+
+        _supportedCultures = Configuration.GetSection("Cultures")
+                                          .GetChildren()
+                                          .OrderByDescending(x => x.Key) // Put "Nederlands" before "English" in the drop-down list.
+                                          .ToDictionary(x => x.Key, x => x.Value);
+    }
+
+    private void SetCulture(string selectedCulture)
+    {
+        // Only set the culture if a different culture than the current culture was selected.
+        bool currentCultureIsDifferentFromSelectedCulture = !CultureInfo.CurrentCulture.Name.Equals(selectedCulture);
+        if (currentCultureIsDifferentFromSelectedCulture)
+        {
+            // Get the current URI so we can redirect back to it in the Culture/Set action method.
+            string currentUri = new Uri(NavigationManager.Uri).GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+            string currentUriEscaped = Uri.EscapeDataString(currentUri);
+
+            string selectedCultureEscaped = Uri.EscapeDataString(selectedCulture);
+
+            NavigationManager.NavigateTo($"Culture/Set?culture={selectedCultureEscaped}&redirectUri={currentUriEscaped}", forceLoad: true);
+        }
+    }
+}

@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Http.Features;
+
+@inject IHttpContextAccessor HttpContextAccessor
+@inject IJSRuntime JavaScriptRuntime
+
+@if (_showBanner)
+{
+    <div id="cookieConsent" class="alert alert-info alert-dismissible fade show cookie-banner pt-2 pb-2 pe-4" role="alert">
+        <span class="d-flex-center">
+            <i class="fas fa-info-circle"></i>
+            <span class="ms-2 me-3">
+                @*@ComponentLocalizer["CookiePolicy"]*@
+            </span>
+            <button type="button" class="btn-primary" data-dismiss="alert" aria-label="Close" data-cookie-string="@_cookieString"
+                    @onclick="AcceptMessage">
+                @*<span class="text-nowrap" aria-hidden="true">@ComponentLocalizer["GotIt"]</span>*@
+            </button>
+        </span>
+    </div>
+}
+
+@code {
+    private bool _showBanner;
+
+    /// <summary>
+    /// The value that will be stored in a cookie.
+    /// </summary>
+    private string? _cookieString;
+
+    protected override void OnInitialized()
+    {
+        ITrackingConsentFeature? consentFeature = HttpContextAccessor.HttpContext?.Features.Get<ITrackingConsentFeature>();
+        _showBanner = !consentFeature?.CanTrack ?? false;
+        _cookieString = consentFeature?.CreateConsentCookie();
+    }
+
+    private void AcceptMessage()
+    {
+        // JS interop to store the consent cookies.
+        JavaScriptRuntime.InvokeVoidAsync("CookieFunction.acceptMessage", _cookieString);
+
+        // Hide the cookie consent banner.
+        _showBanner = false;
+    }
+}
