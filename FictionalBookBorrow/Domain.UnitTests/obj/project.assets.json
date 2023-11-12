@@ -2,18 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Ardalis.GuardClauses/4.0.1": {
+      "Ardalis.GuardClauses/4.2.0": {
         "type": "package",
-        "dependencies": {
-          "JetBrains.Annotations": "2021.3.0"
-        },
         "compile": {
-          "lib/net6.0/Ardalis.GuardClauses.dll": {
+          "lib/netstandard2.1/Ardalis.GuardClauses.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Ardalis.GuardClauses.dll": {
+          "lib/netstandard2.1/Ardalis.GuardClauses.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -38,19 +35,6 @@
         "runtime": {
           "lib/netstandard2.1/FluentResults.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "JetBrains.Annotations/2021.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/JetBrains.Annotations.dll": {
-            "related": ".deps.json;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/JetBrains.Annotations.dll": {
-            "related": ".deps.json;.xml"
           }
         }
       },
@@ -1773,7 +1757,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Ardalis.GuardClauses": "4.0.1",
+          "Ardalis.GuardClauses": "4.2.0",
           "FluentResults": "3.15.2"
         },
         "compile": {
@@ -1786,25 +1770,27 @@
     }
   },
   "libraries": {
-    "Ardalis.GuardClauses/4.0.1": {
-      "sha512": "RemnImQf/BWR8oYqFpdw+hn+b4Q1w+pGujkRiSfjQhMPuiERwGn4UMmQv+6UDE4qbPlnIN+e3e40JkvBhzgfzg==",
+    "Ardalis.GuardClauses/4.2.0": {
+      "sha512": "2mDznNQkPRNpTVGrThEVhBTtxBUsCMobLnfOXnhehznwIEDjT0PG+1cedYzVhHHPfzU1OGc/2ubEkFAyoBi4LQ==",
       "type": "package",
-      "path": "ardalis.guardclauses/4.0.1",
+      "path": "ardalis.guardclauses/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ardalis.guardclauses.4.0.1.nupkg.sha512",
+        "LICENSE",
+        "README.md",
+        "ardalis.guardclauses.4.2.0.nupkg.sha512",
         "ardalis.guardclauses.nuspec",
         "icon.png",
-        "lib/net451/Ardalis.GuardClauses.dll",
-        "lib/net451/Ardalis.GuardClauses.pdb",
-        "lib/net451/Ardalis.GuardClauses.xml",
-        "lib/net6.0/Ardalis.GuardClauses.dll",
-        "lib/net6.0/Ardalis.GuardClauses.pdb",
-        "lib/net6.0/Ardalis.GuardClauses.xml",
+        "lib/net7.0/Ardalis.GuardClauses.dll",
+        "lib/net7.0/Ardalis.GuardClauses.pdb",
+        "lib/net7.0/Ardalis.GuardClauses.xml",
         "lib/netstandard2.0/Ardalis.GuardClauses.dll",
         "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
-        "lib/netstandard2.0/Ardalis.GuardClauses.xml"
+        "lib/netstandard2.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.1/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.1/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.1/Ardalis.GuardClauses.xml"
       ]
     },
     "coverlet.collector/3.2.0": {
@@ -1874,28 +1860,6 @@
         "lib/netstandard2.0/FluentResults.xml",
         "lib/netstandard2.1/FluentResults.dll",
         "lib/netstandard2.1/FluentResults.xml"
-      ]
-    },
-    "JetBrains.Annotations/2021.3.0": {
-      "sha512": "Ddxjs5RRjf+c8m9m++WvhW1lz1bqNhsTjWvCLbQN9bvKbkJeR9MhtfNwKgBRRdG2yLHcXFr5Lf7fsvvkiPaDRg==",
-      "type": "package",
-      "path": "jetbrains.annotations/2021.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "jetbrains.annotations.2021.3.0.nupkg.sha512",
-        "jetbrains.annotations.nuspec",
-        "lib/net20/JetBrains.Annotations.dll",
-        "lib/net20/JetBrains.Annotations.xml",
-        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
-        "lib/netstandard1.0/JetBrains.Annotations.dll",
-        "lib/netstandard1.0/JetBrains.Annotations.xml",
-        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
-        "lib/netstandard2.0/JetBrains.Annotations.dll",
-        "lib/netstandard2.0/JetBrains.Annotations.xml",
-        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
-        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.5.0": {
@@ -5835,7 +5799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

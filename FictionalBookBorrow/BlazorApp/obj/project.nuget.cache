@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "vnkgRxyXReBI+Xgz7pGFzx8vMw9kny303Jk1vYpuo7qljnsDhgGTpGiCiQ8N0GV/Ic1/ypS37EUMD2VDcSP7MA==",
+  "dgSpecHash": "JBBvAkCeT2Xf0fnnV1f+2n68yR6mNPrETcQ2D0tQi631vuggh7KyDWj7M9/MX0R0c0vIztg4luwmE9Exqx1Atg==",
   "success": true,
   "projectFilePath": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\BlazorApp\\BlazorApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\u0068318\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
+    "C:\\Users\\u0068318\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\blazored.fluentvalidation\\2.1.0\\blazored.fluentvalidation.2.1.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\u0068318\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.12\\microsoft.aspnetcore.authorization.6.0.12.nupkg.sha512",

@@ -47,7 +47,7 @@
           "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[4.2.0, )"
             },
             "FluentResults": {
               "target": "Package",
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

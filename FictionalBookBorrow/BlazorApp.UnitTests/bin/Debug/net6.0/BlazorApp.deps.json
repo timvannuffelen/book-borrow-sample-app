@@ -22,6 +22,14 @@
         },
         "runtime": {
           "BlazorApp.dll": {}
+        },
+        "resources": {
+          "en/BlazorApp.resources.dll": {
+            "locale": "en"
+          },
+          "nl/BlazorApp.resources.dll": {
+            "locale": "nl"
+          }
         }
       },
       "Ardalis.GuardClauses/4.0.1": {

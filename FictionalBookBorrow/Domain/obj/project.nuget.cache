@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Xa0FaYncLQj4fg0OfMTawoYScfJbLKW3m00PjOLpdBloRVmQ3PArJawJ9YZk6aEInfMDQ36EnOsKHA74Fq4I6A==",
+  "dgSpecHash": "epVP+MwvqJVjZuHZKMjlGnciOlzjJbysyI2MwH6YxKyd3ClLPHbYM+y9+xp9DY393FTenHNl/E4yHGAJTBh1HA==",
   "success": true,
   "projectFilePath": "C:\\VersionControl\\GitHubRepos\\book-borrow-sample-app\\FictionalBookBorrow\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\u0068318\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
+    "C:\\Users\\u0068318\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
-    "C:\\Users\\u0068318\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\sonaranalyzer.csharp\\9.6.0.74858\\sonaranalyzer.csharp.9.6.0.74858.nupkg.sha512",
     "C:\\Users\\u0068318\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"

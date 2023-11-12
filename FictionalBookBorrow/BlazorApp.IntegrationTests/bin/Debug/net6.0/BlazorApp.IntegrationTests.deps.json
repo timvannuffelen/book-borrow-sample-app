@@ -19,14 +19,11 @@
           "BlazorApp.IntegrationTests.dll": {}
         }
       },
-      "Ardalis.GuardClauses/4.0.1": {
-        "dependencies": {
-          "JetBrains.Annotations": "2021.3.0"
-        },
+      "Ardalis.GuardClauses/4.2.0": {
         "runtime": {
-          "lib/net6.0/Ardalis.GuardClauses.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.0.1.0"
+          "lib/netstandard2.1/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
           }
         }
       },
@@ -69,14 +66,6 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
-          }
-        }
-      },
-      "JetBrains.Annotations/2021.3.0": {
-        "runtime": {
-          "lib/netstandard2.0/JetBrains.Annotations.dll": {
-            "assemblyVersion": "2021.3.0.0",
-            "fileVersion": "2021.3.0.0"
           }
         }
       },
@@ -1900,11 +1889,19 @@
         },
         "runtime": {
           "BlazorApp.dll": {}
+        },
+        "resources": {
+          "en/BlazorApp.resources.dll": {
+            "locale": "en"
+          },
+          "nl/BlazorApp.resources.dll": {
+            "locale": "nl"
+          }
         }
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Ardalis.GuardClauses": "4.0.1",
+          "Ardalis.GuardClauses": "4.2.0",
           "FluentResults": "3.15.2"
         },
         "runtime": {
@@ -1919,12 +1916,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ardalis.GuardClauses/4.0.1": {
+    "Ardalis.GuardClauses/4.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RemnImQf/BWR8oYqFpdw+hn+b4Q1w+pGujkRiSfjQhMPuiERwGn4UMmQv+6UDE4qbPlnIN+e3e40JkvBhzgfzg==",
-      "path": "ardalis.guardclauses/4.0.1",
-      "hashPath": "ardalis.guardclauses.4.0.1.nupkg.sha512"
+      "sha512": "sha512-2mDznNQkPRNpTVGrThEVhBTtxBUsCMobLnfOXnhehznwIEDjT0PG+1cedYzVhHHPfzU1OGc/2ubEkFAyoBi4LQ==",
+      "path": "ardalis.guardclauses/4.2.0",
+      "hashPath": "ardalis.guardclauses.4.2.0.nupkg.sha512"
     },
     "Blazored.FluentValidation/2.1.0": {
       "type": "package",
@@ -1967,13 +1964,6 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "JetBrains.Annotations/2021.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ddxjs5RRjf+c8m9m++WvhW1lz1bqNhsTjWvCLbQN9bvKbkJeR9MhtfNwKgBRRdG2yLHcXFr5Lf7fsvvkiPaDRg==",
-      "path": "jetbrains.annotations/2021.3.0",
-      "hashPath": "jetbrains.annotations.2021.3.0.nupkg.sha512"
     },
     "MediatR/12.1.1": {
       "type": "package",

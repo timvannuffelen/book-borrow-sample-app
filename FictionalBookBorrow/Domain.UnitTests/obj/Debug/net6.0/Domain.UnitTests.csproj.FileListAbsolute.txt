@@ -102,5 +102,4 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.UnitTests\obj\Debug\net6.0\ref\Domain.UnitTests.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.UnitTests\bin\Debug\net6.0\Ardalis.GuardClauses.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.UnitTests\bin\Debug\net6.0\FluentResults.dll
-C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.UnitTests\bin\Debug\net6.0\JetBrains.Annotations.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\Domain.UnitTests\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

@@ -157,7 +157,6 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorA
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\Blazored.FluentValidation.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\FluentResults.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\FluentValidation.dll
-C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\JetBrains.Annotations.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\MediatR.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
@@ -189,3 +188,5 @@ C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorA
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\System.Text.Json.dll
 C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\en\BlazorApp.resources.dll
+C:\VersionControl\GitHubRepos\book-borrow-sample-app\FictionalBookBorrow\BlazorApp.UnitTests\bin\Debug\net6.0\nl\BlazorApp.resources.dll
